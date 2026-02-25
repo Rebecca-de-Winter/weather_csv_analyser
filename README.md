@@ -13,7 +13,7 @@ Deployed live here:
 
 ---
 
-## About This Project
+## 👩‍💻 About This Project
 
 This project was created as part of my SheCodes learning journey to demonstrate backend development skills using Python and Flask.
 
@@ -73,10 +73,12 @@ python -m venv .venv
 
 pip install -r requirements.txt
 python app.py
+```
 
 Then open:
-
+```
 http://127.0.0.1:5000/
+``` 
 
 🌱 Future Improvements
 
