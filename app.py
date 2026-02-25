@@ -5,6 +5,8 @@ from uuid import uuid4
 from pathlib import Path
 
 from flask import Flask, request, render_template_string
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 app = Flask(__name__)
@@ -12,9 +14,10 @@ app = Flask(__name__)
 DEGREE_SYMBOL = u"\N{DEGREE SIGN}C"
 SAMPLE_CSV_PATH = Path("data") / "sample.csv"
 
-
+os.makedirs("static", exist_ok=True)
+os.makedirs("uploads", exist_ok=True)
 # ----------------------------
-# SHECODES WEAATHER APP MAIN FUNCTIONS
+# SHECODES WEATHER APP MAIN FUNCTIONS
 # ----------------------------
 
 def format_temperature(temp):
