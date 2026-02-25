@@ -88,6 +88,6 @@ http://127.0.0.1:5000/
 - Enhanced validation and error handling
 
 👋 Author
-Becky Cole
-SheCodes Developer Cohort
-GitHub: https://github.com/Rebecca-de-Winter
+- Becky Cole
+- SheCodes Developer Cohort
+- GitHub: https://github.com/Rebecca-de-Winter
